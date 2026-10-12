@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clark Itinerary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HERO -->
+  <header class="hero">
+    <p class="date-pill">October 19 · Clark, Pampanga</p>
+    <h1>Clark <em>Itinerary</em></h1>
+    <p class="sub">Hi! It's me, J-em. <br> Here's our itinerary for Oct. 19.<br>Please lang, huwag 'to drawing ah!</p>
+    <a href="#map" class="btn">See the map</a>
+  </header>
+
+  <!-- POSTER BANNER -->
+  <div class="poster"><img src="banner.jpg" alt="Pampanga Foodtrip: Clark, Cafes, Good Food"></div>
+
+  <!-- MAP -->
+  <section id="map" class="wrap">
+    <h2>Our Map</h2>
+    <p class="hint">Here's our map for Oct 19</p>
+    <div id="route-map"></div>
+  </section>
+
+  <!-- TIMELINE (cards are rendered by app.js) -->
+  <section class="wrap">
+    <h2>TItenerary</h2>
+    <div id="timeline" class="timeline"></div>
+  </section>
+
+  <footer>
+    <p>See you on Oct 19, everyone!</p>
+    <p class="small">Please lang, 'wag 'to drawing ah!
+    </p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
